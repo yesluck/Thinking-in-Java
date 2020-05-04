@@ -6,6 +6,9 @@ class Engine {
   public void start() {}
   public void rev() {}
   public void stop() {}
+  public void service() {
+    System.out.println("Service called");
+  }
 }
 
 class Wheel {
@@ -37,5 +40,10 @@ public class Car {
     Car car = new Car();
     car.left.window.rollup();
     car.wheel[0].inflate(72);
+    car.engine.service();
   }
 } ///:~
+
+/* Practice14 output:
+Service called
+ */

@@ -11,6 +11,7 @@ class Game {
 
 class BoardGame extends Game {
   BoardGame(int i) {
+    // Practice6 comment next line and error
     super(i);
     print("BoardGame constructor");
   }
@@ -29,3 +30,10 @@ Game constructor
 BoardGame constructor
 Chess constructor
 *///:~
+
+/* Practice6 output:
+Error:(13, 20) java: constructor Game in class reusing.Game cannot be applied to given types;
+  required: int
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+ */

@@ -12,6 +12,8 @@ class WithFinals {
 }
 
 class OverridingPrivate extends WithFinals {
+  // Practice20: Error if @Override private methods
+//  @Override
   private final void f() {
     print("OverridingPrivate.f()");
   }
