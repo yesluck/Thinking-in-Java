@@ -14,4 +14,4 @@ Learning log:
 
 4.29 Chapters 8-9.2
 
-5.4 Exercises 5.1-5.15
+5.4 Exercises 5.1-6.9
