@@ -67,3 +67,5 @@ ConcreteBeetle.k initialized
 k = 47
 j = 39
  */
+
+// Explain: static (Base -> ... -> Most Derived) --> constructor (Base -> ... -> Most Derived) --> nonstatic
